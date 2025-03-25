@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Alunos da Uni9 se juntaram para reservar aqui todo o histórico do seu desenvolvimento em CS e SI.",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:whatch": "jest --watch"
   },
   "author": "",
   "license": "MIT"

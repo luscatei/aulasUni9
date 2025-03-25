@@ -1,4 +1,4 @@
-#essa aula é para o jogo de plataforma 2D, onde o personagem pode andar, pular e atirar. Foi passada no dia 20/03/2025 pelo professor Leandro Mota.
+# Essa aula é para o jogo de plataforma 2D, onde o personagem pode andar, pular e atirar. Foi passada no dia 20/03/2025 pelo professor Leandro Mota.
 
 
 #extends KinematicBody2D
