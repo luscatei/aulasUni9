@@ -15,6 +15,16 @@ class Carro{
     
     //Métodos (Função)
 
+    public function __construct($marca, $modelo, $cor, $km, $capacidadeTanque, $kmPorLitro, $preco){
+        $this->marca = $marca;
+        $this->modelo = $modelo;
+        $this->cor = $cor;
+        $this->km = $km;
+        $this->capacidadeTanque = $capacidadeTanque;
+        $this->kmPorLitro = $kmPorLitro;
+        $this->preco = $preco;
+    }
+
     public function getMarca(){
         return $this->marca;
     }
@@ -95,5 +105,19 @@ class Carro{
         return $desconto;
         
     }
-  
+ 
+    
+    public function mostrarDados(){
+        echo "Marca.............: " . $this->getMarca() .PHP_EOL;
+        echo "Modelo............: " . $this->getModelo() .PHP_EOL;
+        echo "Cor...............: " . $this->getCor() .PHP_EOL;
+        echo "Km................: " . $this->getKm() .PHP_EOL;
+        echo "Capacidade Tanque.: " . $this->getCapacidadeTanque() .PHP_EOL;
+        echo "Km Por Litro......: " . $this->getKmPorLitro() . PHP_EOL;
+        echo "Rodagem...........: " . $this->calcularKm() . PHP_EOL;
+        echo "Preço.............: " . $this->getPreco() . PHP_EOL;
+        echo "Desconto..........: " . $this->calcularDesconto(1) . PHP_EOL;
+        echo "Valor Com Desconto: " . $this->getValorComDesconto() . PHP_EOL;
+        echo "\n";
+    }
 }
