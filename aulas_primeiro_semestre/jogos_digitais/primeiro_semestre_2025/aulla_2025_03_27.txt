@@ -1,6 +1,0 @@
-Na aula de hoje, 
-
-Fizemos ajustes no sprite do personagem utilizando tanto o position quanto o offset, também fizemos alterações no jogo referentes ao HUD e adição de sprites para corações e flechas.
-
-
-Baixar a fonte, vai em "theme overrides", vai em fonts, deixa em DynamicFont, font,  coloca a fonte q vc colocou no godot, em seguiad vai em setting e vai no size e coloca o numero do tamanho.
